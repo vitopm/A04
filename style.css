@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto';
+    margin:0;
+}
+
+h1{
+    font-weight: 800;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(253, 253, 253, 0.8);
+    border-bottom: 1px solid #458FF6;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-left{
+    float: left;
+    padding-left: 20px;
+}
+
+
+.header-right{
+    float: right;
+    margin-top: 30px;
+}
+
+.header-right a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: pointer;
+    color: #666666;
+    display: inline-block;
+}
+
+.header-right a:active{
+  color:#5B9BF3;
+}
+
+/* test underline */
+.two:hover ~ hr {
+  margin-left: 35%;
+}
+
+.three:hover ~ hr {
+  margin-left: 65%;
+}
+
+
+hr {
+  height: 3px;
+  width: 25%;
+  margin: 0;
+  background: #458FF6;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+
+.logo img{
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo h1{
+    float: left;
+    font-size: 36px;
+    margin-top: 22px;
+    margin-bottom:22px;
+    padding-left: 2px;
+
+}
+
+.logo span{
+    color: #458FF6;
+}
+
+
+.menu-icon{
+  float: right;
+  font-size: 25px;
+  padding: 20px 20px;
+  height: 80px; 
+  display: none;
+}
+
+.top-wrapper{
+  min-height: 650px;
+  padding: 150px 130px;
+}
+
+.top-wrapper-left{
+  float: left;
+  width:45%;
+  padding-right:2%;
+  padding-left: 3%;
+}
+
+.top-wrapper-left img{
+  width:100%;
+  max-width: 415px;
+  display: block;
+}
+
+.top-wrapper-right{
+  float: left;
+  width: 48%;
+  padding-left: 2%;
+}
+.top-wrapper-right h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.top-wrapper-right p{
+  margin: 25px 0;
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-video{
+  background-color: #FDBD17;
+  width: 173px;
+  height: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.btn-video:hover{
+  opacity: 1;
+  transition: 0.5s;
+}
+.btn-video:active{
+  opacity:0.8;
+}
+.btn-video img{
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left:25px;
+  height:20px;
+
+}
+
+.btn-video p{
+  float: left;
+  font-size:18px;
+  margin-top:11px;
+  margin-bottom:11px;
+  margin-left:10px;
+  color: #FFFFFF;
+}
+
+/* Steps to Get Vaccinated */
+.steps-wrapper{
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("/images/Get-vaccinated/Blob.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	min-height:900px;
+}
+
+.steps-wrapper h1 span{
+    color:#5B9BF3;
+    
+
+}
+
+.steps-container{
+    margin-top: 90px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.step{
+    min-width: 200px;
+    width: 25%;
+    margin: 20px;
+    height: 330px;
+    border-radius: 15px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+    background-color: white;
+}
+
+.step-icon img{
+    width: 80%;
+}
+
+.step-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.step-description{
+    font-size: 14px;
+    padding: 20px
+}
+
+/* Question */
+
+.forum-wrapper{
+  height: 500px;
+}
+
+.title span{
+  color:#5B9BF3 ;
+}
+
+.title h1{
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.icon img{
+  height: 277px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon{
+  float: left;
+  width: 50%;
+}
+
+.forum-field{
+  float: left;
+  width: 50%;
+  padding: 0 50px; 
+}
+
+.text-field p{
+  color: #666;
+  margin:16px 0;
+}
+
+.forum-field p:first-child{
+  margin-top: 0;
+  margin-bottom:16px;
+}
+
+.warn{
+  color: red;
+  margin:16px 0;
+}
+
+input, textarea{
+  width: 300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #666;
+  border-radius: 5px;  
+}
+
+.btn-submit{
+  border-radius: 30px;
+  padding: 10px 0;
+  display: inline-block;
+  opacity: 0.7;
+
+  background-color: #458FF6;
+  font-size: 24px;
+  margin-bottom: 20px;
+  box-shadow:  0 10px  #0043AF ;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.btn-submit:hover{
+  opacity: 1;
+}
+
+.btn-submit:active{
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}   
+
+/* footer */
+footer{
+    background-color: whitesmoke;
+    
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-logo img{
+    height: 30px;
+}
+
+.footer-logo h1{
+    font-size: 36px;
+    padding-left: 2px;
+}
+
+.footer-logo span{
+    color: #458FF6;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #666;
+    transition: border-bottom 200ms linear;
+}
+
+footer a:hover{
+    border-bottom: 3px solid #458FF6;
+	color: #458FF6;
+}
