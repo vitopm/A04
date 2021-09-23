@@ -3,4 +3,4 @@ Sebuah web tentang awareness vaksin covid-19 sebagai project akhir dari HIMTI BI
 Karya:
 - Vito Pramudita Minardi
 - Reynald Slamat Putra
-- Leonard Davidson
+- Leonardo Davidson
