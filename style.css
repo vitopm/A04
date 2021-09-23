@@ -189,7 +189,7 @@ hr {
 .steps-wrapper{
     text-align: center;
     padding: 100px 0;
-    background-image: url("/images/Get-vaccinated/Blob.svg");
+    background-image: url("images/Get-vaccinated/Blob.svg");
     background-size: cover;
     background-repeat: no-repeat;
 	min-height:900px;
